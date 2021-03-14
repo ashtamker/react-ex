@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Basic from './component/2.2/Basic'
+import Basic from './component/2.2/Basic';
+import Box1 from './component/3.1/Box1';
 
 function App() {
   return (
-   <Basic />
+   <Box1 />
   );
 }
 

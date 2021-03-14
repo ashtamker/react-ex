@@ -1,4 +1,4 @@
-const data = ['hello', 'world'];
+const data = ['Hello', 'world'];
 const num1 = 5;
 const num2 = 6;
 const str = "I love React!";
