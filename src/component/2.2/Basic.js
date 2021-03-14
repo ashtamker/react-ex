@@ -1,16 +1,16 @@
-const data = ["hello", "world"];
-const number1 = 5;
-const number2 = 6;
-const string = "I love React!";
+const data = ['hello', 'world'];
+const num1 = 5;
+const num2 = 6;
+const str = "I love React!";
 
 const Basic = () => {
     return (
         <div>
             {`${data[0]} ${data[1]}`}
             <br />
-            {number1 + number2}
+            {num1 + num2}
             <br />
-            {string.length}
+            {'str length:'+ str.length}
         </div>
     )
 }
