@@ -1,4 +1,4 @@
-const Buttons = () => {
+const Buttons = (props) => {
    return (
        <div>
            <button style={{fontWeight:'bold'}}>Important</button>

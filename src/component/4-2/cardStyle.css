@@ -1,0 +1,20 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    height: fit-content;
+    width: fit-content;
+    margin: 10px;
+    padding: 10px;
+    width: 600px;
+    border: 3px solid black;
+}
+
+
+a{
+    margin: 8px;
+}
