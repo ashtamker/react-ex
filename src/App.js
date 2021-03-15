@@ -6,10 +6,11 @@ import Buttons from './component/4-1/Buttons';
 import Quiz from './component/3.2/Quiz';
 import Card from './component/4-2/Card';
 import CardTemplate from './component/4-2/CardTemplate';
+import Increment from './component/7-1/Increment';
 
 function App() {
   return (
-   <CardTemplate  />
+   <Increment  />
   );
 }
 
