@@ -20,10 +20,10 @@ const CardTemplate = () => {
                 secondLink=""
             />
             <Card
-                img=""
+                img="https://images.unsplash.com/photo-1587740851725-3d3e64e9f19e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8aG9va2FofGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                 title="Israel"
                 description="end of info....."
-                firstLink=""
+                firstLink="https://images.unsplash.com/photo-1587740851725-3d3e64e9f19e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8aG9va2FofGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                 secondLink=""
             />
         </div>
