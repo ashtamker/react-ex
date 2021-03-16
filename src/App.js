@@ -9,6 +9,7 @@ import './App.css';
 // import Increment from './component/7-1/Increment';
 // import HideAndSeek from './component/7-2/HideAndSeek';
 import LifeCycle from './Component/8-1/LifeCycle';
+import BoxSlide from './Component/8-2/BoxSlide';
 
 function App() {
   return (
