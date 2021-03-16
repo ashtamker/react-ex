@@ -10,10 +10,11 @@ import './App.css';
 // import HideAndSeek from './component/7-2/HideAndSeek';
 import LifeCycle from './Component/8-1/LifeCycle';
 import BoxSlide from './Component/8-2/BoxSlide';
+import ChangingBox from "./Component/8-3/ChangingBox";
 
 function App() {
   return (
-   <LifeCycle />
+   <ChangingBox />
   );
 }
 
