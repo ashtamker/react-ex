@@ -7,10 +7,11 @@ import Quiz from './component/3.2/Quiz';
 import Card from './component/4-2/Card';
 import CardTemplate from './component/4-2/CardTemplate';
 import Increment from './component/7-1/Increment';
+import HideAndSeek from './component/7-2/HideAndSeek';
 
 function App() {
   return (
-   <Increment  />
+   <HideAndSeek  />
   );
 }
 
