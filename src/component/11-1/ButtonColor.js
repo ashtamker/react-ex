@@ -13,7 +13,7 @@ render(){
     return (
         <>
         {colorStorage.map(c => 
-        <button key={c} color={c} onClick={(c) => this.onClickButton(c)} />)}
+        <Btn key={c} color={c} onClick={(c) => this.onClickButton(c)} />)}
         <h1>{`the current color is ${this.state.color}`}</h1>
         </>
     );
