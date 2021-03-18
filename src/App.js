@@ -12,10 +12,12 @@ import LifeCycle from './Component/8-1/LifeCycle';
 import BoxSlide from './Component/8-2/BoxSlide';
 import ChangingBox from './Component/8-3/ChangingBox';
 import ButtonColor from './Component/11-1/ButtonColor';
+import CheckBox from './Component/11-2/CheckBox';
 
 function App() {
   return (
-   <ButtonColor />
+  //  <ButtonColor />
+   <CheckBox />
   );
 }
 
