@@ -16,14 +16,15 @@ import './App.css';
 // import Joke from './Component/12-1/Joke';
 // import GetJoke from './Component/12-1/GetJoke';
 // import List from './Component/13-1/List';
-import FormSub from './Component/11-3/FormSub';
+// import FormSub from './Component/11-3/FormSub';
+import Avatar  from './Component/13-2/Avatar';
 
 
 function App() {
   return (
   //  <ButtonColor />
   //  <CheckBox />
-<FormSub />
+<Avatar />
   );
 }
 
