@@ -8,20 +8,22 @@ import './App.css';
 // import CardTemplate from './component/4-2/CardTemplate';
 // import Increment from './component/7-1/Increment';
 // import HideAndSeek from './component/7-2/HideAndSeek';
-import LifeCycle from './Component/8-1/LifeCycle';
-import BoxSlide from './Component/8-2/BoxSlide';
-import ChangingBox from './Component/8-3/ChangingBox';
-import ButtonColor from './Component/11-1/ButtonColor';
-import CheckBox from './Component/11-2/CheckBox';
-import Joke from './Component/12-1/Joke';
-import GetJoke from './Component/12-1/GetJoke';
-import List from './Component/13-1/List';
+// import LifeCycle from './Component/8-1/LifeCycle';
+// import BoxSlide from './Component/8-2/BoxSlide';
+// import ChangingBox from './Component/8-3/ChangingBox';
+// import ButtonColor from './Component/11-1/ButtonColor';
+// import CheckBox from './Component/11-2/CheckBox';
+// import Joke from './Component/12-1/Joke';
+// import GetJoke from './Component/12-1/GetJoke';
+// import List from './Component/13-1/List';
+import FormSub from './Component/11-3/FormSub';
+
 
 function App() {
   return (
   //  <ButtonColor />
   //  <CheckBox />
-  <List />
+<FormSub />
   );
 }
 
