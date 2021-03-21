@@ -13,11 +13,13 @@ import BoxSlide from './Component/8-2/BoxSlide';
 import ChangingBox from './Component/8-3/ChangingBox';
 import ButtonColor from './Component/11-1/ButtonColor';
 import CheckBox from './Component/11-2/CheckBox';
+import Joke from './Component/12-1/Joke';
 
 function App() {
   return (
   //  <ButtonColor />
-   <CheckBox />
+  //  <CheckBox />
+  <Joke />
   );
 }
 
