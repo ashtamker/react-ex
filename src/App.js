@@ -14,12 +14,13 @@ import ChangingBox from './Component/8-3/ChangingBox';
 import ButtonColor from './Component/11-1/ButtonColor';
 import CheckBox from './Component/11-2/CheckBox';
 import Joke from './Component/12-1/Joke';
+import GetJoke from './Component/12-1/GetJoke';
 
 function App() {
   return (
   //  <ButtonColor />
   //  <CheckBox />
-  <Joke />
+  <GetJoke />
   );
 }
 

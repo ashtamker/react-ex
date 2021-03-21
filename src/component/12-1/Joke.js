@@ -2,19 +2,20 @@ import React from 'react';
 import axios from 'axios';
 
 class Joke extends React.Component {
-    constructor(props) {
-        super(props);
+    state = {
+        joke: '',
     }
-        async componentDidMount() {
+        getJoke = async () => {
 
-            const request = await axios.get('https://api.chucknorris.io/jokes/random'); 
-            console.log(request.value);
+            const request = await axios.get('https://api.chucknorris.io/jokes/random');
+            this.setState({joke: request.data.value})
 
         }
         render() {
             return (
             <div>
-                
+                <input type="button" value="joke" onClick={this.getJoke}></input>
+            <p>{this.state.joke}</p>
             </div>            
             )
 
