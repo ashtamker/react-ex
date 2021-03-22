@@ -27,4 +27,4 @@ const data = [
 
 ];
 
-export default userData;
+export default data;
