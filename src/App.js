@@ -18,13 +18,15 @@ import './App.css';
 // import List from './Component/13-1/List';
 // import FormSub from './Component/11-3/FormSub';
 // import Avatar  from './Component/13-2/Avatar';
-import Focus from './Component/14-1/Focus';
+// import Focus from './Component/14-1/Focus';
+import CopyText from './Component/14-2/CopyText';
+
 
 function App() {
   return (
   //  <ButtonColor />
   //  <CheckBox />
-  <Focus />
+  <CopyText />
 
   );
 }
