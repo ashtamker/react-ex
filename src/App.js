@@ -19,15 +19,26 @@ import './App.css';
 // import FormSub from './Component/11-3/FormSub';
 // import Avatar  from './Component/13-2/Avatar';
 // import Focus from './Component/14-1/Focus';
-import CopyText from './Component/14-2/CopyText';
+// import CopyText from './Component/14-2/CopyText';
+import Homepage from './Component/16-1/Homepage';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 
 function App() {
   return (
-  //  <ButtonColor />
-  //  <CheckBox />
-  <CopyText />
+    <Router>
+      <div>
+        <Route path="header" component={Header} />
+        <Route path="/" exact component={Homepage} />
+        <Route path="/products" component={Products} />
 
+      </div>
+  </Router>
   );
 }
 

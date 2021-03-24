@@ -1,8 +1,8 @@
 import React from 'react';
 
 class CopyText extends React.Component {
-    constructor(props){
-        super(props)
+    constructor(){
+        super()
         this.state = {
             userText: '',
         }
@@ -19,12 +19,14 @@ class CopyText extends React.Component {
     }
 
     render (){
-        const {userText} = this.state
+       
         return (
             <div>
                 <h1>Enter your name</h1>
-                <p><textarea ref={this.inputCopyText} type='textarea' 
-                value={this.state.userText} onChange={(event) => this.setState({userText: event.target.userText})}></textarea> </p>
+                
+                <textarea ref={this.inputCopyText} type='textarea' 
+                value={this.state.value} onChange={(event) => this.setState({userText: event.target.value})}/>
+                <br/>
                 <button onClick={() => this.onBtnClick}>Copy me</button>
             </div>
         )
