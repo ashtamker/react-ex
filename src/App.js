@@ -21,6 +21,8 @@ import './App.css';
 // import Focus from './Component/14-1/Focus';
 // import CopyText from './Component/14-2/CopyText';
 import Homepage from './Component/16-1/Homepage';
+import Header from './Component/16-1/Header';
+import Products from './Component/16-1/Products';
 import {
   BrowserRouter as Router,
   Switch,
@@ -33,10 +35,11 @@ function App() {
   return (
     <Router>
       <div>
-        <Route path="header" component={Header} />
+        <Header />
+        <Switch>
         <Route path="/" exact component={Homepage} />
         <Route path="/products" component={Products} />
-
+        </Switch>
       </div>
   </Router>
   );
