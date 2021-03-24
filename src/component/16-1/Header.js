@@ -8,7 +8,7 @@ class Header extends React.Component {
         return (
             <nav>
                 <ul className="nav-list">
-                    <Link to='/home'>
+                    <Link to='/'>
                     <li>Home</li>
                     </Link>
                     <Link to='products'>
