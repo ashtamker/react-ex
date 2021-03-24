@@ -18,7 +18,7 @@ class Products extends React.Component {
             <div>
                 {this.state.info.map(p => (
                     <p key={p.id}>
-                     <Link to={`/products/${p.id}`}>{p.title}</Link>
+                     <Link to={`/products/${p.id}`} className="item-list">{p.title}</Link>
                     </p>
 
                 ))}

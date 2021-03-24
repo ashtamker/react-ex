@@ -23,6 +23,7 @@ import './App.css';
 import Homepage from './Component/16-1/Homepage';
 import Header from './Component/16-1/Header';
 import Products from './Component/16-1/Products';
+import ProductDetail from './Component/16-1/ProductDetail';
 import {
   BrowserRouter as Router,
   Switch,
@@ -38,7 +39,8 @@ function App() {
         <Header />
         <Switch>
         <Route path="/" exact component={Homepage} />
-        <Route path="/products" component={Products} />
+        <Route path="/products" exact component={Products} />
+        <Route path="/products/:id" component={ProductDetail} />
         </Switch>
       </div>
   </Router>
