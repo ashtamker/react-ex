@@ -30,20 +30,24 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Api from './Component/17-1/Api';
 
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Header />
-        <Switch>
-        <Route path="/" exact component={Homepage} />
-        <Route path="/products" exact component={Products} />
-        <Route path="/products/:id" component={ProductDetail} />
-        </Switch>
-      </div>
-  </Router>
+    <div>
+    <Api />
+    </div>
+  //   <Router>
+  //     <div>
+  //       <Header />
+  //       <Switch>
+  //       <Route path="/" exact component={Homepage} />
+  //       <Route path="/products" exact component={Products} />
+  //       <Route path="/products/:id" component={ProductDetail} />
+  //       </Switch>
+  //     </div>
+  // </Router>
   );
 }
 
