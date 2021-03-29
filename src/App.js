@@ -31,12 +31,13 @@ import {
   Link
 } from "react-router-dom";
 import Api from './Component/17-1/Api';
+import Hidetext from './Component/18-1/Hidetext';
 
 
 function App() {
   return (
     <div>
-    <Api />
+    <Hidetext />
     </div>
   //   <Router>
   //     <div>
