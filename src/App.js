@@ -34,11 +34,12 @@ import Api from './Component/17-1/Api';
 import Hidetext from './Component/18-1/Hidetext';
 import Todo from './Component/18-2/Todo';
 import TimeConvert from './Component/18-3/TimeConvert';
+import Checkbox from './Component/18-4/Checkbox';
 
 function App() {
   return (
     <div>
-    <TimeConvert />
+    <Checkbox />
     
     </div>
   //   <Router>
