@@ -32,12 +32,12 @@ import {
 } from "react-router-dom";
 import Api from './Component/17-1/Api';
 import Hidetext from './Component/18-1/Hidetext';
-
+import Todo from './Component/18-2/Todo';
 
 function App() {
   return (
     <div>
-    <Hidetext />
+    <Todo />
     </div>
   //   <Router>
   //     <div>
