@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
-import Task from './Task';
-import 'style.css';
+import './style.css';
 
 const Todo = () => {
     const task = [
@@ -25,9 +24,9 @@ const Todo = () => {
         <div className="container">
             <h2> Todo List App</h2>
             {todos.map((item, index) => (
-                <div onClick={() => onTaskClick(index)}>
+                <div className="task" onClick={() => onTaskClick(index)}>
                     <div>{item.name}</div>
-                    {item.completed ? '\u2718' : '\u2714'}
+                    {item.completed ? '\u2714' : '\u2718'}
                     </div>
             ))}
               
