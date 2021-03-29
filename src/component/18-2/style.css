@@ -15,4 +15,6 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
-
+.line {
+    text-decoration: line-through;
+}

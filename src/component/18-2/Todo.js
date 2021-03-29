@@ -17,6 +17,7 @@ const Todo = () => {
         const addTask = [...todos];
         addTask[i].completed = !addTask[i].completed;
         setTodos(addTask);
+    
      }
 
 
@@ -25,8 +26,9 @@ const Todo = () => {
             <h2> Todo List App</h2>
             {todos.map((item, index) => (
                 <div className="task" onClick={() => onTaskClick(index)}>
-                    <div>{item.name}</div>
+                    <div className={`${item.completed ? "line" : ""}`}>{item.name}</div>
                     {item.completed ? '\u2714' : '\u2718'}
+                    
                     </div>
             ))}
               
