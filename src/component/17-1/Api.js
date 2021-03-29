@@ -18,7 +18,10 @@ export default class Api extends React.Component {
     render() {
       return (
         <ul>
-          { this.state.heros.map(heros => <li>{heros.name}</li>)}
+          { this.state.heros.map(heros => 
+          <li>{heros.name} 
+          <img src={heros.img} height={"150px"} width={"150px"}></img>
+          </li>)}
         </ul>
       )
     }
