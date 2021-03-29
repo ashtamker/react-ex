@@ -4,3 +4,15 @@
     font-size: 24px;
     color: cadetblue;
 }
+
+button {
+    font-size: 18px;
+    margin: 3px;
+}
+
+
+.box:checked {
+    color: darkblue;
+    background-color: darkblue;
+    text-decoration: underline;
+}
