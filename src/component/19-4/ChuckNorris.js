@@ -1,23 +1,29 @@
-import React,{useState} from 'react';
+import React,{useState , useEffect} from 'react';
 import axios from 'axios';
 
 const Chucknorris = () => {
     const [categories, setCategories] = useState([])
     const [joke, setJoke] = useState([])
 
-    const getCategory = async () => {
-        const response = await axios.get('https://api.chucknorris.io/jokes/categories')
-        setCategories(response.data)
-    }
+    useEffect(() => {
+        const getCategory = async () => {
+            const data = await axios.get('https://api.chucknorris.io/jokes/categories')
+            setCategories(data.data)
+        }
+
+        
+    getCategory()
+    },)
+    
     const getJokeByCategory = async (e) => {
-        const response = await axios.get(`https://api.chucknorris.io/jokes/random?category=${e.target.value}`)
-        setJoke(response.data.value)
+        const data = await axios.get(`https://api.chucknorris.io/jokes/random?category=${e.target.value}`)
+        setJoke(data.data.value)
 
     }
     return (
         <div>
             <h3>{joke}</h3>
-            <button onClick={getCategory}>Categories</button>
+            <button>Categories</button>
 
             {categories.map((j, index) => {
                 return (
