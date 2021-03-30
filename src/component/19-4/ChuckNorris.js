@@ -26,7 +26,6 @@ const Chucknorris = () => {
             <p>{joke}</p>
         </div>
     )
-
 }
 
 export default Chucknorris;
