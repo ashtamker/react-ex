@@ -31,6 +31,7 @@ import {
   Link
 } from "react-router-dom";
 import Starwars from './Component/19-1/Starwars';
+import Countries from './Component/19-2/Countries';
 // import Api from './Component/17-1/Api';
 // import Hidetext from './Component/18-1/Hidetext';
 // import Todo from './Component/18-2/Todo';
@@ -40,7 +41,7 @@ import Starwars from './Component/19-1/Starwars';
 function App() {
   return (
     <div>
-    <Starwars />
+    <Countries />
     
     </div>
   //   <Router>

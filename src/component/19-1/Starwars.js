@@ -2,9 +2,8 @@ import React,{useState, useEffect} from 'react';
 import axios from 'axios';
 
 const Starwars = () => {
-    const [episode, setEpisode] = useState('1');
+    const [episode, setEpisode] = useState('2');
 
-    
     
     useEffect(() => {
        const movie = async () => {
@@ -15,6 +14,8 @@ const Starwars = () => {
         console.log(movie()); 
     },);
 
+
+   
     return(
         
         <div>
