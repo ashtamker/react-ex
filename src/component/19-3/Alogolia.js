@@ -42,7 +42,7 @@ const Alogolia = () => {
             {loading ? <p>please wait</p> : ""}
             <ul>
                 {dataAlgolia.map(c => {
-                return <li key={c.objectID}> <a href={c.url}>{c.title}</a></li>   
+                return <li key={c.objectID}>{c.title} <a href={c.url}>link to article</a></li>   
                 })}
             </ul>   
             
