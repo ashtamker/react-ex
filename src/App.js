@@ -20,26 +20,27 @@ import './App.css';
 // import Avatar  from './Component/13-2/Avatar';
 // import Focus from './Component/14-1/Focus';
 // import CopyText from './Component/14-2/CopyText';
-import Homepage from './Component/16-1/Homepage';
-import Header from './Component/16-1/Header';
-import Products from './Component/16-1/Products';
-import ProductDetail from './Component/16-1/ProductDetail';
+// import Homepage from './Component/16-1/Homepage';
+// import Header from './Component/16-1/Header';
+// import Products from './Component/16-1/Products';
+// import ProductDetail from './Component/16-1/ProductDetail';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
-import Api from './Component/17-1/Api';
-import Hidetext from './Component/18-1/Hidetext';
-import Todo from './Component/18-2/Todo';
-import TimeConvert from './Component/18-3/TimeConvert';
-import Checkbox from './Component/18-4/Checkbox';
+import Starwars from './Component/19-1/Starwars';
+// import Api from './Component/17-1/Api';
+// import Hidetext from './Component/18-1/Hidetext';
+// import Todo from './Component/18-2/Todo';
+// import TimeConvert from './Component/18-3/TimeConvert';
+// import Checkbox from './Component/18-4/Checkbox';
 
 function App() {
   return (
     <div>
-    <Checkbox />
+    <Starwars />
     
     </div>
   //   <Router>
