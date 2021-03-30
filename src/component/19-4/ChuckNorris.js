@@ -16,14 +16,14 @@ const Chucknorris = () => {
     }
     return (
         <div>
+            <h3>{joke}</h3>
             <button onClick={getCategory}>Categories</button>
 
             {categories.map((j, index) => {
                 return (
                   <li key={index}><button onClick={getJokeByCategory} value={j} >{j}</button></li>
                 )
-            })}
-            <p>{joke}</p>
+            })}   
         </div>
     )
 }
