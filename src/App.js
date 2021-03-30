@@ -32,6 +32,7 @@ import {
 } from "react-router-dom";
 import Starwars from './Component/19-1/Starwars';
 import Countries from './Component/19-2/Countries';
+import Alogolia from './Component/19-3/Alogolia';
 // import Api from './Component/17-1/Api';
 // import Hidetext from './Component/18-1/Hidetext';
 // import Todo from './Component/18-2/Todo';
@@ -41,7 +42,7 @@ import Countries from './Component/19-2/Countries';
 function App() {
   return (
     <div>
-    <Countries />
+    <Alogolia />
     
     </div>
   //   <Router>

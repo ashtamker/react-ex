@@ -12,12 +12,12 @@ useEffect(() => {
          setCountriesList(data.data);  
      };
    allCountries(); 
- },[]);
+ },);
 
 
 return(
         <div>
-            
+
             <ul>
                 {countriesList.map(c => {
                 return <li>{c.name}</li> 
