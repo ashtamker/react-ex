@@ -14,7 +14,7 @@ const Checkbox = () => {
     
     const onClickDelete = () => {
         let updateArr = list.filter(v => !v.checked);
-        setList(updateArr);
+        setList(updateArr);                                
     }
 
     const onClickReset = () => {
@@ -25,8 +25,8 @@ const Checkbox = () => {
         <div>
             {list.map((v, i) => {
                 return(
-                    <li className="list-item" key={i}> 
-                    <input className="box" type="checkbox" checked={v.checked} onChange={() => onCheckedItem(i)}></input>
+                    <li className={"list-item"} key={i}> 
+                    <input className={"box"} type={"checkbox"} checked={v.checked} onChange={() => onCheckedItem(i)}></input>
                     {v.value}
                     </li>
                 )
