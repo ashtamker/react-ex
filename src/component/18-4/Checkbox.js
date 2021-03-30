@@ -12,12 +12,12 @@ const Checkbox = () => {
         setList(copyArr);
     }
     
-    const onClickDelete = (e) => {
+    const onClickDelete = () => {
         let updateArr = list.filter(v => !v.checked);
         setList(updateArr);
     }
 
-    const onClickReset = (e) => {
+    const onClickReset = () => {
         setList(arr.map(i => ({value: i, checked: false})));
     }
 
