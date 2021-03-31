@@ -39,11 +39,12 @@ import Alogolia from './Component/19-3/Alogolia';
 // import TimeConvert from './Component/18-3/TimeConvert';
 // import Checkbox from './Component/18-4/Checkbox';
 import ChuckNorris from './Component/19-4/ChuckNorris';
+import CancelRequest from './Component/20-1/CencelReq';
 
 function App() {
   return (
     <div>
-    <ChuckNorris />
+    <CancelRequest />
     
     </div>
   //   <Router>
