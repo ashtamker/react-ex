@@ -40,11 +40,12 @@ import Alogolia from './Component/19-3/Alogolia';
 // import Checkbox from './Component/18-4/Checkbox';
 import ChuckNorris from './Component/19-4/ChuckNorris';
 import CancelRequest from './Component/20-1/CencelReq';
+import Editing from './Component/21-1/Editing';
 
 function App() {
   return (
     <div>
-    <CancelRequest />
+    <Editing />
     
     </div>
   //   <Router>
