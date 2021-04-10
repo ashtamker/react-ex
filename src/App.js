@@ -41,11 +41,13 @@ import Alogolia from './Component/19-3/Alogolia';
 import ChuckNorris from './Component/19-4/ChuckNorris';
 import CancelRequest from './Component/20-1/CencelReq';
 import Editing from './Component/21-1/Editing';
+import Video from './Component/21-2/Video';
 
 function App() {
   return (
     <div>
     <Editing />
+    <Video />
     
     </div>
   //   <Router>
